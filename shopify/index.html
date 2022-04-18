@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopify pia project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.hover
+	{
+		font-size: 25px;
+		margin-top: 120px;
+	}
+	.hover:hover
+	{
+		margin-left: 5px;
+	}
+	.hover1
+	{
+		font-size: 25px;
+		margin-top: 120px;
+	}
+	.hover1:hover
+	{
+		margin: 5px;
+	}
+	.fa
+		    {
+		    	padding:15px 15px;
+		    	text-decoration: none;
+		    	font-size:16px;
+		    	border-radius: 50%;
+		    	
+		/*if you want the rounded buttons just remove the above style and add the below*/
+		    	/*padding: 20px;
+			    font-size: 30px;
+			    width: 30px;
+			    text-align: center;
+			    text-decoration: none;
+			    border-radius: 50%;*/
+		    }
+		    .fa:hover
+		    {
+		    	opacity:0.7;
+		    }
+		    .fa-facebook
+		    {
+		    	background-color:#FFFFFF;
+		    	color: #002E25;
+		    	text-decoration: none;
+		    }
+		    .fa-twitter
+		    {
+		    	background-color:#FFFFFF;
+		    	color: #002E25;
+		    }
+		    .fa-youtube
+		    {
+		    	background-color:#FFFFFF;
+		    	color: #002E25;
+			}
+			.fa-linkedin {
+              background-color:#FFFFFF;
+		    	color: #002E25;
+			}
+			.fa-pinterest {
+              background-color:#FFFFFF;
+		    	color: #002E25;
+		    }
+		    .fa-globe{
+              background-color:#FFFFFF;
+		    	color: #002E25;
+		    }
+</style>
+</head>
+<body>
+<div class="container-fluid" style="background-color: #FBF7ED; width: 100%;height: 600px; color: black;">
+	<div class="row">
+		<div class="col-sm-6">
+			<nav class="navbar navbar-expand-sm " style="margin-top: -70px; ">
+				<img src="logo/1.png" >
+	 			<a href="#" class="navbar-brand"></a>
+	 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+	 			<span class="navbar-toggler-icon"></span> 
+	 			</button>
+	
+			<div id="myNavbar" class="collapse navbar-collapse" >
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" style="font-weight: bold;color: black; font-family: Arial, sans-serif;">Start</a>
+					<ul class="dropdown-menu ">
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" class="dropdown-item" style="font-weight: bold;color: black;">Merchandise</a>
+							<a href="" class="dropdown-item">ali</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" style="font-weight: bold;color: black; font-family: Arial, sans-serif;">Sell</a>
+					<ul class="dropdown-menu ">
+						<p style="margin: 10px;">Sell everywhere</p><hr>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" class="dropdown-item" style="font-weight: bold;color:black;">Merchandise</a>
+							<a href="" class="dropdown-item">ali</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle " data-toggle="dropdown" href="" style="font-weight: bold;color: black; font-family: Arial, sans-serif;">Market</a>
+					<ul class="dropdown-menu " style="width: 200px;">
+						<p style="margin: 10px;">Market your business</p><hr>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">Email marketing</a>
+						</li>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">Shopify ping</a>
+						</li>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">Google</a>
+						</li>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">Facebook Ads</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" style="font-weight: bold;color: black;">Manage</a>
+
+					<ul class="dropdown-menu " style="width: 200px;">
+						<p style="margin: 10px;">Manage everything</p><hr>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">Payments</a>
+						</li>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">Shipping</a>
+						</li>
+						<li class="nav-item "><a class="nav-link"  href="" class="dropdown-item" style="font-weight: bold;color:black;">capital</a>
+						</li>
+					</ul>	
+				</li>
+				
+			</ul>
+	</div>
+</nav>
+		</div>
+		<!-- col-sm-5 ended here hlaf menu -->
+		<div class="col-sm-3 offset-sm-1" >
+			<nav class="navbar navbar-expand-sm" style="margin-top: 10px;" >
+	 			<a href="#" class="navbar-brand"></a>
+	 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+	 			<span class="navbar-toggler-icon"></span> 
+	 			</button>
+	
+			<div id="myNavbar" class="collapse navbar-collapse" >
+			<ul class="navbar-nav">
+				<li class="nav-item "><a class="nav-link" href="" style="font-weight: bold;color: black; font-family: Arial, sans-serif;">Pricing</a>
+				</li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" style="font-weight: bold;color: black; font-family: Arial, sans-serif;">Learn</a>
+					<ul class="dropdown-menu ">
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Blog</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Business Courses</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Guides</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Forums</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Free tools</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Podcasts</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Business encyclopedia</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#" style="font-weight: bold;color: black;">Help center</a>
+						</li>
+
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: black; font-family: Arial, sans-serif;">Login</a>
+				</li>
+			</ul>
+	</div>
+</nav>
+			<button style="background-color: #004C3F; font-size: 20px; margin-left: 240px; margin-top: -90px; height: 40px;" class="btn text-center"><a href="start trail.html" style="text-decoration: none; color: white; text-align: center;">Start free trail</a></button>
+		</div>
+	</div>
+	<!-- menu ended here full -->
+	<div class="row">
+		<div class="col-sm-6">
+			<p style="color: #004C3F; font-size: 46px;font-family:Helvetica, Arial, sans-serif; line-height: 66px;margin-left: 50px;font-weight: 800;margin-top: 50px;">Anyone,anywhere,can<br>start a business</p>
+			<form>
+				<div class="from-group">
+					<input type="email" placeholder="Enter your email address" class="form-control" style="width: 500px; height: 60px; margin-left: 50px;">
+					<button style="background-color: #004C3F; font-size: 20px; margin-left: 555px; margin-top: -90px; height: 60px;" class="btn btn-lg"><a href="start trail.html" style="text-decoration: none; color: white;">Start free trail</a></button>
+				</div>
+			</form>
+			<p style="margin-left: 50px;font-size: 12px;font-family: Helvetica, Arial, Lucida Grande, sans-serif;color: #42474c;">Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing <br> emails from Shopify.</p>
+		</div>
+		<!-- col-sm-5 endend here -->
+		<div class="col-sm-4 offset-sm-2">
+			<div class="embed-responsive embed-responsive-16by9">
+				<video width="320" height="240" controls>
+					<source src="vedio/vedio.mp4" type="video/mp4">
+					
+				  Your browser does not support the video tag.
+				  </video>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- container 1 ended here -->
+<div class="container-fluid" style="background-color: #004C3F;height: 1150px;"><br><br><br>
+	
+		<div class="row">
+		<div class="col-sm-8" style="margin-left: 50px;">
+				<h2 style=";font-family: sans-serif;font-size: 40px;line-height: 49px;color: #ffffff;">Bring your business online</h2>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande;font-size: 16px;line-height: 24px;">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>
+		</div> 
+		<div class="col-sm-2 offset-sm-1">
+				<p style=""><a href="#"  style=" color:#ffffff; font-size: 18px;text-decoration: none;">Explore more example <span class="hover">→</span></a></p>
+		</div>
+	</div>
+		 <!-- row ended here -->
+	<div class="row">
+		<div class="col-sm-2 offset-sm-1">
+			<div class="card">
+				<img src="logo/4.jpg">
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="card">
+				<img src="logo/5.jpg">
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="card">
+				<img src="logo/6.jpg">
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="card">
+				<img src="logo/4.jpg">
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="card">
+				<img src="logo/5.jpg">
+			</div>
+		</div>
+	</div> <!-- row ended here pic -->
+	<div class="row">
+		<div class="col-sm-2 offset-sm-1">
+			<p style="margin-top: 10px; color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;"><a href="#" style=" color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 16px; font-weight: bold;">FOOD & DRINK<br></a>Alfred</p>
+		</div>
+		<div class="col-sm-2">
+			<p style="margin-top: 10px; color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;"><a href="#" style=" color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 16px; font-weight: bold;">JEWELRY<br></a>Corey Moranis</p>
+		</div>
+		<div class="col-sm-2">
+			<p style="margin-top: 10px; color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;"><a href="#" style=" color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 16px; font-weight: bold;">FOOD & DRINK<br></a>Detour Coffee</p>
+		</div>
+		<div class="col-sm-2">
+			<p style="margin-top: 10px; color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;"><a href="#" style=" color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 16px; font-weight: bold;">BEAUTY & COSEMTICE <br></a>Then I Met You</p>
+		</div>
+		<div class="col-sm-2">
+			<p style="margin-top: 10px; color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;"><a href="#" style=" color: #ffffff; font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 16px; font-weight: bold;">HOME & GARDEN<br></a>Miss Boon</p>
+		</div>
+	</div> <br><br><br><br><br>
+	<!-- row ended here -->
+	<div class="row">
+		<div class="col-sm-4 offset-sm-1">
+			<h3 style="font-family: Helvetica, Arial, sans-serif; font-size: 30px; line-height: 40px;color: #ffffff;">Take the best path forward</h3>
+		</div>
+	</div><br><br>
+	<!-- row ended here -->
+	<div class="row">
+		<div class="col-sm-3 offset-sm-1">
+			<i class="	fas fa-atlas" style="color: white;font-size: 30px;"></i>
+		</div>
+		<div class="col-sm-3">
+			<i class="fas fa-bars" style="color: white;font-size: 30px;"></i>
+		</div>
+		<div class="col-sm-3">
+			<i class="fas fa-archive" style="color: white;font-size: 30px;"></i>
+		</div>
+		<div class="col-sm-2">
+			<i class="	fas fa-address-book" style="color: white; font-size: 30px;"></i>
+		</div>
+	</div><br>
+	<!-- row ended here -->
+	<div class="row">
+		<div class="col-sm-3 offset-sm-1" style="color: white;">
+			<h5 style=" font-family: Helvetica, Arial, sans-serif; font-size: 18px;line-height:24px;">Move your business online</h5>
+			<p style=" font-family:Helvetica, Arial, sans-serif;font-size: 16px;line-height: 24px;">Turn your retail store into an online store<br> and keep serving customers without <br> missing a beat.</p>
+		</div>
+		<div class="col-sm-3" style="color: white;">
+			<h5 style=" font-family: Helvetica, Arial, sans-serif; font-size: 18px;line-height:24px;">Move your business online</h5>
+			<p style=" font-family:Helvetica, Arial, sans-serif;font-size: 16px;line-height: 24px;">Turn your retail store into an online store<br> and keep serving customers without <br> missing a beat.</p>
+		</div>
+		<div class="col-sm-3" style="color: white;">
+			<h5 style=" font-family: Helvetica, Arial, sans-serif; font-size: 18px;line-height:24px;">Move your business online</h5>
+			<p style=" font-family:Helvetica, Arial, sans-serif;font-size: 16px;line-height: 24px;">Turn your retail store into an online store<br> and keep serving customers without <br> missing a beat.</p>
+		</div>
+		<div class="col-sm-2" style="color: white;">
+			<h5 style=" font-family: Helvetica, Arial, sans-serif; font-size: 18px;line-height:24px;">Move your business online</h5>
+			<p style=" font-family:Helvetica, Arial, sans-serif;font-size: 16px;line-height: 24px;">Turn your retail storeonline store<br> and keep serving customers.</p>
+		</div>
+	</div>
+</div><br><br><br><br>
+ <!-- container 2nd is ended here -->
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-sm-10">
+ 			<center>
+ 				<p style="font-family:  Helvetica, Arial, sans-serif;font-size: 40px;line-height: 49px;color: #212326;">With you wherever you’re going</p>
+ 				<p style="color: #6b7177;font-family:  Helvetica, Arial, sans-serif;font-size: 20px;line-height: 27px;">One platform with all the ecommerce and point of sale features <br> you need to start, run, and grow your business.</p>
+ 			</center>
+ 		</div>
+ 	</div><br><br> <!-- row emded -->
+ 	<div class="row">
+ 		<div class="col-sm-4">
+ 			<img src="logo/9.jpg">
+ 		</div>
+ 		<div class="col-sm-5 offset-sm-3">
+ 			<p style="font-family: Helvetica, Arial, sans-serif; font-size: 30px;line-height: 40px;color: #212326;">Sell everywhere</p>
+ 			<p style="font-family: Helvetica, Arial, sans-serif; color: #6b7177;font-size: 16px;line-height: 24px;">Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.</p>
+ 			<p><a href="#"  style=" color: #008060; font-size: 18px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Explore ways to sell <span class="hover">→</span></a></p>
+ 		</div>
+ 	</div><br><br>
+ 	<div class="row">
+ 		<div class="col-sm-5">
+ 			<p style="font-family: Helvetica, Arial, sans-serif; font-size: 30px;line-height: 40px;color: #212326;">Market your business</p>
+ 			<p style="font-family: Helvetica, Arial, sans-serif; color: #6b7177;font-size: 16px;line-height: 24px;">Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns.</p>
+ 			<p><a href="#"  style=" color: #008060; font-size: 18px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Explore how to market your business <span class="hover">→</span></a></p>
+ 		</div>
+ 		<div class="col-sm-5 offset-sm-1" style="">
+ 			<img src="logo/10.jpg" style="width: 400px;">
+ 		</div><br><br>
+ 	</div> <br><br>	<!-- row ended -->
+ 	<div class="row">
+ 		<div class="col-sm-5">
+ 			<img src="logo/13.png">
+ 		</div>
+ 		<div class="col-sm-5 offset-sm-1">
+ 			<p style="font-family: Helvetica, Arial, sans-serif; font-size: 30px;line-height: 40px;color: #212326;">Market your business</p>
+ 			<p style="font-family: Helvetica, Arial, sans-serif; color: #6b7177;font-size: 16px;line-height: 24px;">Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns.</p>
+ 			<p><a href="#"  style=" color: #008060; font-size: 18px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Explore how to market your business <span class="hover">→</span></a></p>
+ 		</div>
+ 	</div> 
+ 	<!-- row end -->
+ 	<div class="row">
+ 		<div class="col-sm-8">
+ 			<p style="font-family: Helvetica, Arial, sans-serif; font-size: 30px;line-height: 40px;color: #212326;">Empowering independent business<br>owners everywhere</p>
+ 			<p style="font-family: Helvetica, Arial, sans-serif; color: #212326;font-size: 24px;line-height: 32px;">Over <span style="font-weight: bold;">1,700,000 businesses</span> in <span style="font-weight: bold;">175 countries</span> around the world <br>have made over <span style="font-weight: bold;">$200 billion USD </span>in sales using Shopify.</p>
+ 			<p><a href="#"  style=" color: #008060; font-size: 18px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Learn more about shopify <span class="hover">→</span></a></p>
+ 		</div>
+ 	</div> <!-- row ended -->
+ 	<div class="row">
+ 		<div class="col-sm-12">
+ 			<center>
+ 				<img src="logo/16.png" class="img-fluid" style="width: 800px;height: 800px;">
+ 			</center>
+ 		</div>
+ 	</div><br><br><br>
+ 	<!-- row end -->
+ </div>
+  <div class="container">
+ 	<div class="row">
+ 		
+ 		<div class="col-sm-6">
+ 			<img src="logo/17.jpg" class="img-fluid">	
+ 		</div>
+ 		<div class="col-sm-6">
+ 			<img src="logo/19.png" class="img-fluid">
+ 		</div>
+ 	</div>
+ </div><br><br>
+<!-- <div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-1 offset-sm-1">
+			<img src="logo/20.png">
+		</div>
+		<div class="col-sm-1">
+			<img src="logo/21.png">
+		</div>
+		<div class="col-sm-1">
+			<img src="logo/22.png">
+		</div>
+		<div class="col-sm-2">
+			<img src="logo/23.png">
+		</div>
+		<div class="col-sm-1">
+			<img src="logo/24.png">
+		</div>
+		<div class="col-sm-1">
+			<img src="logo/25.png">
+		</div>
+		<div class="col-sm-1">
+			<img src="logo/26.png">
+		</div>
+		<div class="col-sm-1">
+			<img src="logo/27.png">
+		</div>
+	</div>
+</div><br><br><br><br> -->
+	<!-- container ended -->
+<div class="container-fluid" style="background-color: #FBF7ED; height: 650px;"><br><br>
+	<div class="row">
+		<div class="col-sm-4 offset-sm-1 ">
+			<p style="font-family: Helvetica, Arial, sans-serif;color: #212326; font-size: 40px;line-height: 40px;">Get the help you need, every step of the way</p><br><br>
+			<p style="font-family: Helvetica, Arial, sans-serif;color: #212326;font-size: 18px;line-height: 24px;">Shopify support</p>
+			<p style="color: #6b7177;font-family: Helvetica, Arial, Lucida Grande, sans-serif; font-size: 16px;line-height: 24px;">Contact support 24/7, whether you’re <br> troubleshooting issues or looking for <br> business advice.</p>
+			<p><a href="#"  style=" color: #008060; font-size: 18px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Contact support<span class="hover">→</span></a></p><br>
+
+				<p style="font-family: Helvetica, Arial, sans-serif;color: #212326;font-size: 18px;line-height: 24px;">Shopify Experts Marketplace</p>
+			<p style="color: #6b7177;font-family: Helvetica, Arial, Lucida Grande, sans-serif; font-size: 16px;line-height: 24px;">Hire a Shopify expert to help you with <br> everything from store setup to SEO.</p>
+			<p><a href="#"  style=" color: #008060; font-size: 16px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Explore the Shopify Experts Marketplace<span class="hover">→</span></a></p>
+		</div>
+		<div class="col-sm-4 offset-sm-2">
+			<img src="logo/28.jpg" class="img-fluid" style="width: 600px;height: 600px;">
+		</div>
+	</div>
+</div><br><br><br>
+		<!-- contaner ended -->
+<div class="container">
+	<div class="row">
+		<center>
+			<div class="col-sm-12">
+				<p style="color: #212326;font-family: Helvetica, Arial, sans-serif; font-size: 30px;line-height: 40px;">Start your business journey with Shopify</p>
+				<p style="color: #6b7177;font-family: Helvetica, Arial, sans-serif; font-size: 18px;line-height: 24px;">Try Shopify for free, and explore all the tools and services you need to start, run, and grow <br> your business.</p>
+				<button style="background-color: #004C3F; font-size: 20px;  height: 60px;" class="btn  btn-lg"><a href="start trail.html" style="text-decoration: none; color: white;">Start free trail</a></button>
+			</div>
+		</center>
+	</div>
+</div><br><br><br>
+		<!-- container end -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3 offset-sm-9">
+			
+		<p><a href="#"  style=" color: #008060; font-size: 18px;text-decoration: none;font-family:Helvetica, Arial, sans-serif;font-weight: bold;">Back to top<span class="hover1">↑</span></a></p>
+		</div>
+	</div>
+</div>
+	<!-- container end -->
+<div class="container-fluid" style="background-color: #002E25;height: 600px;">
+	<div class="row">
+		<div class="col-sm-10" style="margin-left: 50px;">
+			<nav class="navbar navbar-expand-sm navbar-dark">
+	 <a href="#" class="navbar-brand"></a>
+	 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+	 	<span class="navbar-toggler-icon"></span> 
+	 </button>
+	
+	<div id="myNavbar" class="collapse navbar-collapse" >
+		<ul class="navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: white;">About</a></li>
+		<li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: white;">Careers</a></li>
+		<li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: white;">Press and Media</a></li>
+		<li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: white;">Shopify Plus</a></li>
+		<li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: white;">Sitemap</a></li>
+		<!-- <li class="nav-item"><a class="nav-link" href="" style="font-weight: bold;color: white;">MORE</a></li> -->
+	</ul>
+	</div>
+</nav> <hr style="background-color: #6b7177;">
+		</div>
+	</div>
+	<!-- row ended -->
+	<div class="row">
+		<div class="col-sm-2" style="margin-left: 50px;">
+			<h5 style="color: #ffffff;font-family: Helvetica, Arial, sans-serif; font-size: 14px;line-height: 16px; font-weight: bold;">ONLINE STORE</h5>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Sell online</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Featurs</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Example</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Website editors</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Online retail</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce Website</p>
+		</div>
+		<div class="col-sm-2" style="margin-top: 25px;">
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Domian name</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Themes</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Shopping cart</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce hosting</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Mobile commerce</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce Software</p>
+		</div>
+		<div class="col-sm-2" style="margin-top: 25px;">
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Domian name</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Themes</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Shopping cart</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce hosting</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Mobile commerce</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce Software</p>
+		</div>
+		<div class="col-sm-2">
+			<h5 style="color: #ffffff;font-family: Helvetica, Arial, sans-serif; font-size: 14px;line-height: 16px; font-weight: bold;">POINT OF SALE</h5>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Sell online</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Featurs</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Example</p>
+		</div>
+		<div class="col-sm-2">
+			<h5 style="color: #ffffff;font-family: Helvetica, Arial, sans-serif; font-size: 14px;line-height: 16px; font-weight: bold;">SUPPORT</h5>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Sell online</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Featurs</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Example</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce hosting</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Mobile commerce</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce Software</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce hosting</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Mobile commerce</p>
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 14px;line-height: 21px;">Ecommerce Software</p>
+		</div>
+	</div> <hr style="background-color: #6b7177;"><br><br>
+	<div class="row">
+		<div class="col-sm-5">
+			<a href="#" class="fa fa-facebook" style="margin-left: 50px;"></a>
+      		<a href="#" class="fa fa-twitter" style="margin-left: 20px;"></a>
+	  		<a href="#" class="fa fa-youtube" style="margin-left: 20px;"></a>
+	  		<a href="#" class="fa fa-linkedin" style="margin-left: 20px;"></a>
+	  		<a href="#" class="fa fa-pinterest" style="margin-left: 20px;"></a>
+	  		
+		</div>
+		<div class="col-sm-5 offset-sm-2">
+			<p style="color: #ffffff;font-family: Helvetica, Arial, Lucida Grande,; font-size: 16px;line-height: 24px;">Terms of Service Privacy Polic 
+				<a href="#" class="fa fa-globe" ></a>
+				<select style="background-color: #002E25; color: #ffffff;">
+				<option>Pakistan</option>
+				<option>India</option>
+				<option>USA </option>
+				<option>UK</option>
+				<option>UAE</option>
+				<option>Australia</option>
+			</select></p>
+			
+		</div>
+	</div>
+</div>
+</body>
+</html>
